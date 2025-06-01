@@ -9,8 +9,8 @@ password = getpass.getpass("Enter ur password:")
 try :
     conn = mysql.connector.connect(
         host="localhost",
-        user="root",
-        password="buddireddy@123",
+        user="your mysql username",
+        password="your mysql password",
         database="user_data"
     )
     # this is used to connect to the database
